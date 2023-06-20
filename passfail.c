@@ -6,7 +6,7 @@ int main()
     printf("enter the marks: ");
     scanf("%d",&n);
     
-    if(n>50 && n<=100){
+    if(n>=50 && n<=100){
     printf("pass");
     }
     else if(n<50 && n>0)
